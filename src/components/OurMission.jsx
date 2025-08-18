@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function OurMission () {
 return (
-    <section className="py-10 mx-100 bg-white">
+    <section className="py-10 bg-white mx-[15%]">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center px-6">
         <div>
           <h2 className="text-3xl font-bold mb-6">Why We’re Building Kindred</h2>
