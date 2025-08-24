@@ -9,7 +9,6 @@ export default function RegisterInterest() {
   }, []);
 
   const handleSubmit = (e) => {
-    // Browser validation will stop submission if fields are empty/invalid
     if (!e.target.checkValidity()) {
       return;
     }
@@ -22,7 +21,6 @@ export default function RegisterInterest() {
       className="bg-[#BBF246] py-10 w-full flex justify-center"
     >
       <div className="max-w-7xl w-full flex flex-col lg:flex-row justify-center items-center gap-10 px-4">
-        {/* Left: Image / Mockup */}
         <div className="w-md lg:w-lg flex justify-center">
           <img
             src="src/assets/home-mockup.png"
@@ -30,8 +28,6 @@ export default function RegisterInterest() {
             className="rounded-lg -rotate-3"
           />
         </div>
-
-        {/* Right: Form */}
         <div className="w-md lg:w-lg bg-white p-6 rounded-2xl shadow-lg drop-shadow-lg text-left">
           {submitted ? (
             <div className="text-center py-10">
@@ -59,7 +55,6 @@ export default function RegisterInterest() {
                   target="_blank"
                   onSubmit={handleSubmit}
                 >
-                  {/* Email */}
                   <div className="mb-3">
                     <label htmlFor="mce-EMAIL">Email Address *</label>
                     <input
@@ -70,8 +65,6 @@ export default function RegisterInterest() {
                       className="w-full border p-2 my-1 rounded-2xl"
                     />
                   </div>
-
-                  {/* First Name */}
                   <div className="mb-3">
                     <label htmlFor="mce-FNAME">First Name *</label>
                     <input
@@ -82,8 +75,6 @@ export default function RegisterInterest() {
                       className="w-full border p-2 my-1 rounded-2xl"
                     />
                   </div>
-
-                  {/* Last Name */}
                   <div className="mb-3">
                     <label htmlFor="mce-LNAME">Last Name</label>
                     <input
@@ -93,8 +84,6 @@ export default function RegisterInterest() {
                       className="w-full border p-2 my-1 rounded-2xl"
                     />
                   </div>
-
-                  {/* Location */}
                   <div className="mb-3">
                     <label htmlFor="mce-LOCATION">Location</label>
                     <input
@@ -104,8 +93,6 @@ export default function RegisterInterest() {
                       className="w-full border p-2 my-1 rounded-2xl"
                     />
                   </div>
-
-                  {/* Age */}
                   <div className="mb-3">
                     <label htmlFor="mce-AGE">Age</label>
                     <input
@@ -115,8 +102,6 @@ export default function RegisterInterest() {
                       className="w-full border p-2 my-1 rounded-2xl"
                     />
                   </div>
-
-                  {/* Checkbox */}
                   <div className="mb-5">
                     <strong>Interested in being involved?</strong>
                     <div className="flex flex-col mt-2">
@@ -138,8 +123,6 @@ export default function RegisterInterest() {
                       </label>
                     </div>
                   </div>
-
-                  {/* Hidden field for bots */}
                   <div
                     style={{ position: "absolute", left: "-5000px" }}
                     aria-hidden="true"
@@ -150,8 +133,6 @@ export default function RegisterInterest() {
                       tabIndex="-1"
                     />
                   </div>
-
-                  {/* Submit Button */}
                   <div className="text-center">
                     <button
                       type="submit"
