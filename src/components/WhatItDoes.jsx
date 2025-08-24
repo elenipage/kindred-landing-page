@@ -1,12 +1,9 @@
 export default function WhatItDoes () {
 
 return (
-<section className="bg-white py-16 px-4 sm:px-8">
+<section className="bg-white px-6 sm:px-8">
   <div className="max-w-5xl mx-auto text-center">
-    <h2 className="text-3xl font-bold mb-4 text-gray-900">What Kindred Does</h2>
-    <p className="text-gray-600 mb-10">
-      Kindred helps young people connect with local clubs, events, and safe spaces that welcome you as you are.
-    </p>
+    <h2 className="text-4xl font-bold mb-10 text-gray-900 text-start">How it works</h2>
 
     <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
       {/* Feature 1 */}
