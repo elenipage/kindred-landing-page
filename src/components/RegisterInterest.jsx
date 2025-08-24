@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Element } from "react-scroll";
 
 export default function RegisterInterest() {
   useEffect(() => {
@@ -14,7 +15,7 @@ export default function RegisterInterest() {
   }, []);
 
   return (
-    <section className="bg-[#BBF246] flex justify-center items-center py-10 w-full">
+    <Element name="register-interest" className="bg-[#BBF246] flex justify-center items-center py-10 w-full">
       <div className="w-full max-w-2xl text-center flex flex-col justify-center items-center">
         <h2 className="text-4xl font-bold mb-6">Register Interest</h2>
         <p className="text-lg text-gray-700 mb-8">
@@ -132,6 +133,6 @@ export default function RegisterInterest() {
           </form>
         </div>
       </div>
-    </section>
+    </Element>
   );
 }

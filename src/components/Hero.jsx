@@ -1,3 +1,5 @@
+import { Link } from "react-scroll";
+
 export default function Hero() {
   return (
     <section className="bg-[#BBF246] flex flex-wrap justify-center items-start mb-10">
@@ -12,12 +14,14 @@ export default function Hero() {
           Discover local activities, safe spaces, and real connection - made for
           you.
         </p>
-        <a
-          href="#signup"
-          className="bg-[#1D2023] text-lg md:text-lg text-white px-7 py-5 rounded-4xl font-semibold"
+        <Link
+          to="register-interest"
+          smooth={true}
+          duration={600}
+          className="bg-[#1D2023] text-lg md:text-lg text-white px-7 py-5 rounded-4xl font-semibold hover:bg-gray-700 cursor-pointer"
         >
           Register Your Interest
-        </a>
+        </Link>
       </section>
       <section className="px-5 pt-10 pb-5">
         <img
