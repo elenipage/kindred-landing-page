@@ -37,7 +37,7 @@ export default function Nav() {
 
           {/* LinkedIn link */}
           <a
-            href="https://www.linkedin.com" // Replace with your LinkedIn page
+            href="https://www.linkedin.com/company/kindred-app" 
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-700 hover:text-gray-900"
