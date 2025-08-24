@@ -1,8 +1,8 @@
-import { Link } from "react-scroll";
+import { Link, Element } from "react-scroll";
 
 export default function Hero() {
   return (
-    <section className="bg-[#BBF246] flex flex-wrap justify-center items-start">
+    <Element name="top" className="bg-[#BBF246] flex flex-wrap justify-center items-start pt-10">
       <section className="w-[90%] xl:w-105 pt-15 lg:pt-25 px-10">
         <h1 className="text-7xl lg:text-8xl font-bold mb-2 text-[#1D2023]">
           Kindred
@@ -29,6 +29,6 @@ export default function Hero() {
           src="src/assets/phoneImages.png"
         ></img>
       </section>
-    </section>
+    </Element>
   );
 }

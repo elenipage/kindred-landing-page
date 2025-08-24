@@ -1,9 +1,10 @@
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { Element } from "react-scroll";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-gray-200 py-10">
-      <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-3 gap-8">
+    <footer className="bg-[#1D2023] text-gray-200 py-10">
+      <Element name="contact-us" className="max-w-7xl mx-auto px-10 md:px-5 grid md:grid-cols-3 gap-8">
 
         {/* Contact Info */}
         <div>
@@ -13,7 +14,7 @@ export default function Footer() {
           <a href="#" className="mx-3 hover:text-white"><FaLinkedinIn /></a>
           </p>
         </div>
-      </div>
+      </Element>
     </footer>
   );
 }

@@ -1,9 +1,9 @@
-import { motion } from "framer-motion";
+import { Element } from "react-scroll";
 
 export default function OurMission() {
   return (
-    <section className="py-10 py-10 bg-white px-[5%] lg:px-[13%]">
-      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+    <Element name="our-mission" className="py-10 py-10 bg-white px-[5%] lg:px-[13%]">
+      <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
         <div>
           <h2 className="text-4xl font-bold mb-6">
             Why we’re building Kindred
@@ -33,7 +33,7 @@ export default function OurMission() {
             and local councils, ensuring no young person is left behind.
           </p>
         </div>
-        <div className="relative flex justify-center md:justify-end">
+        <div className="relative flex justify-center items-center">
           <video
             className="rounded-lg"
             width="600"
@@ -47,6 +47,6 @@ export default function OurMission() {
           </video>
         </div>
       </div>
-    </section>
+    </Element>
   );
 }
