@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 export default function Hero() {
   return (
-    <section className="bg-[#BBF246] flex flex-wrap justify-center items-start mb-10">
+    <section className="bg-[#BBF246] flex flex-wrap justify-center items-start">
       <section className="w-[90%] xl:w-105 pt-15 lg:pt-25 px-10">
         <h1 className="text-7xl lg:text-8xl font-bold mb-2 text-[#1D2023]">
           Kindred

@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 
 export default function OurMission() {
   return (
-    <section className="py-10 my-10 bg-white mx-[5%] lg:mx-[13%] border-t-2 border-gray-200">
-      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center px-4">
+    <section className="py-10 py-10 bg-white px-[5%] lg:px-[13%]">
+      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <div>
           <h2 className="text-4xl font-bold mb-6">
             Why we’re building Kindred
