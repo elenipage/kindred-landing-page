@@ -21,14 +21,14 @@ export default function RegisterInterest() {
       className="bg-[#BBF246] py-10 w-full flex justify-center"
     >
       <div className="max-w-7xl w-full flex flex-col lg:flex-row justify-center items-center gap-10 px-4">
-        <div className="w-md lg:w-lg flex justify-center">
+        <div className="w-xs md:w-md lg:w-lg flex justify-center">
           <img
             src="/assets/home-mockup.png"
             alt="Kindred App Mockup"
             className="rounded-lg -rotate-3"
           />
         </div>
-        <div className="w-md lg:w-lg bg-white p-6 rounded-2xl shadow-lg drop-shadow-lg text-left">
+        <div className="w-[95%] md:w-md lg:w-lg bg-white p-6 rounded-2xl shadow-lg drop-shadow-lg text-left">
           {submitted ? (
             <div className="text-center py-10">
               <h2 className="text-3xl font-bold mb-4">Thank You!</h2>

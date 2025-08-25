@@ -1,7 +1,7 @@
 export default function WhatItDoes () {
 
 return (
-<section className="bg-white px-6 sm:px-8 pt-10 pb-15 border-b-2 border-gray-200">
+<section className="bg-white px-6 sm:px-8 pt-30 md:pt-10 pb-15 border-b-2 border-gray-200">
   <div className="max-w-5xl mx-auto text-center">
     <h2 className="text-4xl font-bold mb-10 text-gray-900 text-start">How it works</h2>
 

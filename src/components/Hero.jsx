@@ -7,10 +7,10 @@ export default function Hero() {
         <h1 className="text-7xl lg:text-8xl font-bold mb-2 text-[#1D2023]">
           Kindred
         </h1>
-        <h2 className="text-2xl lg:text-3xl font-bold mb-7 text-[#1D2023]">
+        <h2 className="text-2xl lg:text-3xl font-bold mb-5 text-[#1D2023]">
           The app that helps young people find their people.
         </h2>
-        <p className="text-lg text-[#1D2023] mb-12">
+        <p className="text-lg text-[#1D2023] mb-8">
           Discover local activities, safe spaces, and real connection - made for
           you.
         </p>

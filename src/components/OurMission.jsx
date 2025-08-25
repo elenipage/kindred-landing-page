@@ -35,9 +35,7 @@ export default function OurMission() {
         </div>
         <div className="relative flex justify-center items-center">
           <video
-            className="rounded-lg"
-            width="600"
-            height="600"
+            className="rounded-lg max-w-full h-auto"
             autoPlay
             loop
             muted
