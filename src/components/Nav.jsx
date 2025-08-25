@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-scroll";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -20,6 +19,7 @@ export default function Nav() {
             smooth={true}
             duration={500}
             className="text-gray-700 hover:text-gray-900 cursor-pointer"
+            offset={-60}
           >
             Our Mission
           </Link>
