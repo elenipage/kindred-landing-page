@@ -42,7 +42,7 @@ export default function OurMission() {
             loop
             muted
           >
-            <source src="src/assets/kindredVideo.mp4" type="video/mp4" />
+            <source src="/assets/kindredVideo.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>

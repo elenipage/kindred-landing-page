@@ -23,7 +23,7 @@ export default function RegisterInterest() {
       <div className="max-w-7xl w-full flex flex-col lg:flex-row justify-center items-center gap-10 px-4">
         <div className="w-md lg:w-lg flex justify-center">
           <img
-            src="src/assets/home-mockup.png"
+            src="/assets/home-mockup.png"
             alt="Kindred App Mockup"
             className="rounded-lg -rotate-3"
           />

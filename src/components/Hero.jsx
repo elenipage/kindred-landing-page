@@ -26,7 +26,7 @@ export default function Hero() {
       <section className="px-5 pt-10 pb-5">
         <img
           className="max-h-170 -mb-30"
-          src="src/assets/phoneImages.png"
+          src="/assets/phoneImages.png"
         ></img>
       </section>
     </Element>
